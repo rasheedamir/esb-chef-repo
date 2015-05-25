@@ -1,0 +1,7 @@
+export M2_HOME=<%= node['maven']['m2_home'] %>
+export PATH=$M2_HOME/bin:$PATH
+
+export MAVEN_HOME=<%= node['maven']['m2_home'] %>
+export PATH=$MAVEN_HOME/bin:$PATH
+
+export MAVEN_OPTS="<%= node['maven']['mavenrc']['opts'] %>"
